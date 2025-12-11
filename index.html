@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Geometry Dash Finland List</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+  <h1>🇫🇮 Geometry Dash Finland List</h1>
+  <div id="header-right">Admin: DARKPINGGD</div>
+</header>
+<main>
+  <section id="top-area">
+    <div id="levels"><h2>Top Demons</h2><ul id="level-list">Loading...</ul></div>
+    <div id="players"><h2>Top Players</h2><ul id="player-list">Loading...</ul></div>
+  </section>
+
+  <section id="submit">
+    <h2>Submit Record</h2>
+    <form id="submit-form">
+      <input placeholder="Player name" id="pname" required />
+      <input placeholder="Level ID or name" id="lname" required />
+      <input placeholder="Percent (e.g. 100)" id="percent" required type="number" min="0" max="100"/>
+      <input placeholder="YouTube video URL" id="video" required />
+      <select id="platform">
+        <option value="pc">PC</option><option value="mobile">Mobile</option>
+      </select>
+      <button type="submit">Submit</button>
+    </form>
+    <div id="submit-result"></div>
+  </section>
+
+  <section id="admin">
+    <h2>Admin Login</h2>
+    <input id="admin-pass" placeholder="Admin password" type="password"/>
+    <button id="admin-login">Login</button>
+    <div id="admin-area" style="display:none;">
+      <h3>Pending Records</h3>
+      <ul id="pending-list">-</ul>
+    </div>
+  </section>
+</main>
+<script src="app.js"></script>
+</body>
+</html>

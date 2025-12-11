@@ -1,0 +1,9 @@
+body{background:#0f1720;color:#fff;font-family:Inter,Arial,Helvetica,sans-serif;margin:0}
+header{background:#003580;padding:18px 22px;display:flex;justify-content:space-between;align-items:center}
+h1{margin:0;font-size:20px}
+#top-area{display:flex;gap:20px;padding:20px}
+#levels,#players{flex:1;background:#081226;padding:12px;border-radius:8px}
+#submit{padding:20px}
+input,select{display:block;margin:8px 0;padding:8px;border-radius:6px;border:1px solid #2a3b54;background:#071226;color:#fff}
+button{padding:8px 12px;border-radius:6px;border:none;background:#005BBB;color:#fff;cursor:pointer}
+#admin{padding:20px}
